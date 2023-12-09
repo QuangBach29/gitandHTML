@@ -7,6 +7,12 @@ git config --global user.name <username in github>
 
 CHÚ Ý :
 - git init : khởi tạo local repository
-- git add : đưa các thay đổi vào staging area (vùng nhớ)
+- git add . : đưa các thay đổi vào staging area (vùng nhớ)
+- git commit : đưa thay đổi từ staging vào localrepo (offline), lưu lại lịch sử thay đổi
+   + Câu lênh : git commit -m "up file"
+- git remote : kết nối với remote repo
+   + Câu lệnh :  git remote add origin https://github.com/QuangBach29/gitandHTML.git
+- git push : đưa code từ local lên remote
+   + Câu lênh : git push origin master
 
 
